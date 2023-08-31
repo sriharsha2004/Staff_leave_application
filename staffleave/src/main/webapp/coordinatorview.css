@@ -1,0 +1,99 @@
+/* coordinatorview.css */
+
+/* Apply styles to the unordered list and list items */
+/* Apply some basic styles to the unordered list */
+/* Reset default list styles and set basic body styles */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 90%;
+  margin-left:40px
+}
+ul li {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+ul li .staff-name {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+ul li .leaves {
+  flex-grow: 1;
+}
+
+ul li .reason {
+  flex-grow: 2;
+}
+
+/* Styles for the heading */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Styles for the general button (class .btn) */
+.btn {
+	position: absolute;
+	right: 300px;
+	cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.staffreject{
+	position: absolute;
+	right: 150px;
+	cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #0056b3;
+}
+
+/* Styles for the "Logout" button with ID #logout */
+#logout {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top:50px;
+  right: 100px;
+}

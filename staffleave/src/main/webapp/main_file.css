@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+	height: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;   	
+}
+
+h1 {
+    color: #007bff; /* Blue color for the heading */
+    font-size: 36px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Different button styles based on class */
+.btn.admin {
+    background-color: #dc3545; /* Red color for admin login */
+}
+
+.btn.coordinator {
+    background-color: #28a745; /* Green color for coordinator login */
+}
+
+.btn.director {
+    background-color: #ffc107; /* Yellow color for director login */
+}
+
+.btn.staff {
+    background-color: #17a2b8; /* Cyan color for staff login */
+}

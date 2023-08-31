@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+  }
+
+  .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 8px;
+  transition: background-color 0.2s ease;
+}
+/* Button hover effect */
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Staff-specific button style */
+.btn.staff {
+	position: absolute;
+	left: 40px;
+	top: 30px;
+  background-color: #17a2b8;
+}
+
+  h1 {
+      color: #007BFF;
+  }
+
+  p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+  }
