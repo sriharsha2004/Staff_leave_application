@@ -20,7 +20,7 @@ public class AdminLoginServlet extends HttpServlet {
      String name = request.getParameter("adminName");
 
      // Validate admin credentials (you can use your existing Admin class here)
-     if (sno == 576 && name.equals("harsha")) {
+     if (sno == *** && name.equals("****")) {
          // Set a session attribute to indicate successful login
          HttpSession session = request.getSession();
          session.setAttribute("loggedInAdmin", true);
