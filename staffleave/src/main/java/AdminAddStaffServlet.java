@@ -18,7 +18,7 @@ public class AdminAddStaffServlet extends HttpServlet {
 		int leaves = 10;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/Project","root","nms@2000");
+			Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/Project","****","****");
 			PreparedStatement ps = con.prepareStatement("Insert into Staff(sno,sname,leaves) values(?,?,?)");
 			ps.setInt(1,no);
 			ps.setString(2,name);	
