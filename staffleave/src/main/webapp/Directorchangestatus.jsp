@@ -5,7 +5,7 @@
     void updatedirector(int sno){    
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Project", "root", "nms@2000");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Project", "****", "****");
 			PreparedStatement ps = con.prepareStatement("UPDATE Staff SET leaves=leaves-1,directorleavestatus=1,coordinator=null,reason=null WHERE sno=?");
             ps.setInt(1, sno);
             int rowsAffected = ps.executeUpdate();
