@@ -15,7 +15,7 @@ public class CoordinatorLoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int no = Integer.parseInt(request.getParameter("cordinatorid"));
 		String name = request.getParameter("cordinatorName");
-		if(no == 576 && name.equals("harsha")) {
+		if(no == *** && name.equals("****")) {
 			response.sendRedirect("Coordinatorview.jsp");
 		}else {
 			response.sendRedirect("Invalid_admin.jsp");
